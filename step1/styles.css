@@ -17,10 +17,18 @@ html{
     width: 100%;
 }
 
+.home_link{
+    margin-right: auto
+}
 .title{
     display: flex;
     justify-content: center;
+    align-items: center;
     color: #F99B43;
+}
+
+.title_text{
+    margin-right: auto;
 }
 
 a, a:visited{
