@@ -32,10 +32,29 @@ p{
     margin: 0 35px;
 }
 
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+
 .maus{
     object-fit: contain;
     height: 500px;
     width: 100%;
     object-position:top center;
+    padding-top: 15px;
     
+}
+
+#map{
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+    padding: 20px
 }
