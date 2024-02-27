@@ -28,6 +28,23 @@ html{
     margin: 10px 35px;
 }
 
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 35px;
+}
+
+.marker_button{
+    color: #F99B43;
+    border: solid 4px #f99b43;
+    border-radius: 25px;
+    min-width: 150px;
+    max-width: 250px;
+    text-align: center;
+}
+
 .title_text{
     margin-right: auto;
 }
@@ -40,6 +57,7 @@ a, a:visited{
 a:hover{
     color: #F99B43;
     font-size: 30px;
+    padding: 5px
 }
 
 p, ul{
