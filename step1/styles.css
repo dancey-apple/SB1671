@@ -25,6 +25,7 @@ html{
     justify-content: center;
     align-items: center;
     color: #F99B43;
+    margin: 10px 35px;
 }
 
 .title_text{
@@ -38,7 +39,7 @@ a, a:visited{
 
 a:hover{
     color: #F99B43;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 p, ul{
